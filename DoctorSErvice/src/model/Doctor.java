@@ -112,7 +112,7 @@ public class Doctor {
 		}   
 		catch (Exception e)   
 		{    
-			output = "Error while reading the items.";    
+			output = "Error while reading the doctor details.";    
 			System.err.println(e.getMessage());   
 		} 
 	 
@@ -178,7 +178,7 @@ public class Doctor {
 		}   
 		catch (Exception e)   
 		{    
-			output = "Error while deleting the item.";    
+			output = "Error while deleting the doctor details.";    
 			System.err.println(e.getMessage());   
 		} 
 	 
